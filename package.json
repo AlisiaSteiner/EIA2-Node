@@ -1,0 +1,15 @@
+{
+	"name" : "EIA2-Node",
+	"version" : "0.0.1",
+	"description" : "EIA2-Node",
+	"author" : "Alisia Steiner",
+	"main" : "",
+	"scripts" : {
+		"start" : "node Aufgabe10/NodeTest.js"
+	},
+	"engines" : {
+		"node" : "5.8.0"
+	},
+	"dependencies" : {
+	}
+}
