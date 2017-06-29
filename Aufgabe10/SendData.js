@@ -34,4 +34,4 @@ var SendData;
         }
     }
 })(SendData || (SendData = {}));
-//# sourceMappingURL=sendData.js.map
+//# sourceMappingURL=SendData.js.map
