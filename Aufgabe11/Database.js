@@ -9,7 +9,7 @@ let databaseURL = "mongodb://localhost:8100";
 let db;
 let students;
 if (process.env.NODE_ENV == "production")
-    databaseURL = "mongodb://AlisiaSt:eia2database@hostname:port/databasea11";
+    databaseURL = "mongodb://AlisiaSt:eia2database@localhost:8100/databasea11";
 Mongo.MongoClient.connect(databaseURL, handleConnect);
 function handleConnect(_e, _db) {
     if (_e)
